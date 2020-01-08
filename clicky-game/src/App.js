@@ -1,8 +1,8 @@
 import React from "react";
-import HelloReact from "./components/HelloReact";
+import ClickyGame from "./components/ClickyGame";
 
 function App() {
-  return <HelloReact />;
+  return <ClickyGame />;
 }
 
 export default App;

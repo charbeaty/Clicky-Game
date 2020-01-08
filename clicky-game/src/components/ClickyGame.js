@@ -1,4 +1,5 @@
 import React from "react";
+import "./Forms/style.css"
 
 // const $root = document.querySelector("#root");
 
@@ -53,17 +54,25 @@ import React from "react";
 function ClickyGame() {
   return (
     <div className="container">
-<ul className="nav justify-content-center">
-  <li className="nav-item">
-    <a className="nav-link active" href="./components/ClickyGame">Clicky Game</a>
-  </li> <hr>
-  </hr>
-  <li className="nav-item">Click an image to begin
-  </li>
-  <hr>
-  </hr>
-  <li className="nav-item">Score: | Top Score: </li>
-</ul>
+<nav className="navbar fixed-top navbar-expand-lg">
+  <a className="navbar-brand" href="#">Clicky Game</a>
+  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span className="navbar-toggler-icon"></span>
+  </button>
+  <div className="collapse navbar-collapse" id="navbarText">
+    <hr>
+    </hr>
+
+  <span className="navbar-text">
+      Click an image to begin
+    </span>
+    <hr>
+    </hr>
+    <span className="navbar-text">
+      Score
+    </span>
+  </div>
+</nav>
     </div>
   )
 }

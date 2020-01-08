@@ -55,7 +55,7 @@ function ClickyGame() {
   return (
     <div className="container">
 <nav className="navbar fixed-top navbar-expand-lg">
-  <a className="navbar-brand" href="#">Clicky Game</a>
+  <a className="navbar-brand" href="#"><h1 className="clicky">Clicky Game</h1></a>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
   </button>
@@ -72,9 +72,20 @@ function ClickyGame() {
       Score
     </span>
   </div>
-</nav>
-    </div>
-  )
+ </nav>
+ <hr></hr>
+  <div className="jumbotron">
+    <div className="container">
+    <center><h1>Clicky Game</h1>
+    <h2>Try to only click on each image once! Can you remember the ones you've clicked?</h2>
+</center>
+</div>
+</div>
+<main className="container">
+
+</main>
+</div>
+)
 }
 
 export default ClickyGame;

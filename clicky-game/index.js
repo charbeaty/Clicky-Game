@@ -28,7 +28,7 @@ const Image = function() {
 
 Image.prototype.render = function() {
 // put something in here that will keep of track of images that have been
-   // chosen, and hten shuffle them again.
+   // chosen, and then shuffle them again.
 };
 
 const playRound = () => {

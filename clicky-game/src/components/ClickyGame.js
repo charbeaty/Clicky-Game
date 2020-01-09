@@ -74,15 +74,16 @@ function ClickyGame() {
   </div>
  </nav>
  <hr></hr>
+ <hr></hr>
   <div className="jumbotron">
     <div className="container">
     <center><h1>Clicky Game</h1>
-    <h2>Try to only click on each image once! Can you remember the ones you've clicked?</h2>
+    <h2>Try to only click on each image only once! Can you remember the ones you've clicked?</h2>
 </center>
 </div>
 </div>
 <main className="container">
-
+    
 </main>
 </div>
 )

@@ -1,5 +1,5 @@
 nav {
-    background-color: rgb(21, 109, 209);
+    background-color: rgb(221, 208, 90);
     min-height: px;
     width: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -14,7 +14,7 @@ nav {
 }
 
 .jumbotron {
-    background-image: "https://images.wallpapersden.com/image/download/blue-background-geometric-abstract_63624_1920x1080.jpg";
-    height: 100%;
-    width: 100%; 
+    background-image: url(https://www.publicdomainpictures.net/download-picture.php?id=239184&check=7456668f224ff102f1593d6c6134a7b6);
+    background-size: cover;
+    color: white;
 }

@@ -1,0 +1,39 @@
+img{
+    height: 200px !important;
+    width: 200px !important;
+    border: black solid 1px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+h1{
+    font-family: Impact,'Berkshire Swash', cursive ;
+    font-size: 80px !important;
+}
+
+p{
+    font-family: Impact,'Delius', cursive; ;
+    font-size: 20px;
+}
+
+.jumbotron p {
+    font-family: Impact, 'Berkshire Swash', cursive  ;
+    font-size: 30px !important;
+}
+
+img{
+    border: black solid 2px;
+}
+
+img:hover{
+    border: gray solid 3px;
+}
+
+.App {
+    background-color: rgb(87, 34, 117);
+}
+
+.jumbotron {
+    background-color: rgb(98, 93, 165);
+    border-bottom: black solid 2px;
+}

@@ -1,23 +1,30 @@
 img{
-    height: 200px !important;
-    width: 200px !important;
+    height: 150px !important;
+    width: 150px !important;
     border: black solid 1px;
     margin-bottom: 30px;
     margin-left: 30px;
 }
 
+nav {
+    background-color: rgb(115, 60, 145);
+}
+
+.navbar {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 h1{
-    font-family: Impact,'Berkshire Swash', cursive ;
-    font-size: 80px !important;
+    font-size: 64px !important;
+    color: black;
+    text-align: center;
 }
 
 p{
-    font-family: Impact,'Delius', cursive; ;
     font-size: 20px;
 }
 
 .jumbotron p {
-    font-family: Impact, 'Berkshire Swash', cursive  ;
     font-size: 30px !important;
 }
 
@@ -30,10 +37,10 @@ img:hover{
 }
 
 .App {
-    background-color: rgb(87, 34, 117);
+    background-color: white;
 }
 
 .jumbotron {
-    background-color: rgb(98, 93, 165);
+    background-color: rgb(255, 230, 0);
     border-bottom: black solid 2px;
 }

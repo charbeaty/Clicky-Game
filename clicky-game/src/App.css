@@ -6,26 +6,22 @@ img{
     margin-left: 30px;
 }
 
-nav {
-    background-color: rgb(115, 60, 145);
-}
 
-.navbar {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
 
 h1{
     font-size: 64px !important;
-    color: black;
+    color: yellow;
     text-align: center;
 }
 
 p{
     font-size: 20px;
+    color: rgb(33, 218, 33);
 }
 
 .jumbotron p {
     font-size: 30px !important;
+    color: yellow;
 }
 
 img{
@@ -41,6 +37,7 @@ img:hover{
 }
 
 .jumbotron {
-    background-color: rgb(255, 230, 0);
-    border-bottom: black solid 2px;
+    background-image: url("http://getwallpapers.com/wallpaper/full/2/b/c/360134.jpg");
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
